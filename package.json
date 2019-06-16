@@ -1,0 +1,30 @@
+{
+  "name": "iot-sms-api",
+  "version": "1.0.0",
+  "description": "Azure Function API interface for sending SMS through an available remote IoT device in the network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuzu-project/iot-sms-api.git"
+  },
+  "keywords": [
+    "api",
+    "sms",
+    "azure",
+    "iot",
+    "function",
+    "stream"
+  ],
+  "author": "Renato Yamassaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuzu-project/iot-sms-api/issues"
+  },
+  "homepage": "https://github.com/yuzu-project/iot-sms-api#readme",
+  "dependencies": {
+    "azure-functions-core-tools": "^2.7.1373"
+  }
+}
